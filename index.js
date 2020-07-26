@@ -10,7 +10,7 @@ const generate = (e) => {
     }
 }
 
-const copy = async () => {
+const copy = () => {
     const pre = document.getElementById("pre");
-    await navigator.clipboard.writeText(pre.innerHTML);
+    navigator.clipboard.writeText(pre.innerHTML);
 }
